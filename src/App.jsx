@@ -90,7 +90,7 @@ function UsersList() {
 
   return (
     <div style={{ display: "flex", padding: 24, height: "100%", boxSizing: "border-box" }}>
-      {/* Sidebar */}
+
       <div style={{ width: 250, marginRight: 24, background: "#f0f0f0", padding: 16, borderRadius: 8 }}>
         <Title level={3}>User Management</Title>
         <Space direction="vertical" style={{ width: "100%" }}>
@@ -113,7 +113,7 @@ function UsersList() {
         </Space>
       </div>
 
-      {/* Table */}
+      
       <div style={{ flexGrow: 1, background: "#fff", padding: 16, borderRadius: 8, display: "flex", flexDirection: "column" }}>
         <Table
           dataSource={filtered}
